@@ -1,0 +1,266 @@
+.logo-image{
+    height: 80px;
+    width: 80px;
+}
+.top-head{
+    color: black;
+}
+.background{
+    background-image: url("images/background-image.avif");
+    height: 100vh;
+    background-size: cover;
+}
+
+.box-image{
+   
+    border-radius: 10px;
+}
+.box-line{
+    border-radius: 10px;
+   
+   
+}
+.box-font{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.back{
+    height: 100vh;
+}
+.top-head-fonts{
+    color: black;
+}
+.sweet{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.top-products-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+}
+.iteam-images{
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+}
+.banner-image{
+    height: 400px;
+}
+.banner-section-font{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(5, 7, 158);
+}
+.project-background{
+    background-color: rgb(244, 249, 235);
+}
+.slide-banner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.c-style{
+    height: 600px;
+    margin: 50px;
+    width: 1250px;
+    
+}
+.footer-section{
+    background-color: rgb(28, 27, 27);
+    color: white;
+}
+.hr-1{
+    font-weight: 20px;
+}
+.para{
+    padding-left: 50px;
+    
+}
+body {
+    background-color: #f8f9fa;
+}
+
+h2, h3 {
+    color: #5C4B84;
+}
+
+.bg-cont{
+    background-color: rgb(235, 249, 211);
+    height: 100vh;
+}
+.logo-login{
+    height: 150px;
+    width: 200px;
+}
+.login-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.model-images{
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.modal-body{
+    background-color: rgb(255, 212, 126);
+}
+.modal-content{
+    background-color: rgb(255, 223, 159);
+}
+.collection-card {
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.collection-card:hover {
+    transform: scale(1.05);
+}
+
+.collection-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.collection-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.collection-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.collection-count {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.top-products-box{
+    padding: 150px;
+}
+.ratings{
+    background-color: rgb(0, 211, 0);
+    border-radius: 10px; 
+    color: white;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.viewmore-bg{
+    background-color: #f8faed;
+    height: 100vh;
+    
+}
+.view-image{
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.dishes:hover{
+      transform: scale(1.05);
+      transition: 0.4s;
+}
+.city-card {
+    background-color: #f5f4b7;
+    color: #222; 
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.city-card:hover {
+    background-color: #292929; 
+    color: white;
+}
+.food-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    box-shadow: 0 6px 15px rgba(65, 64, 64, 0.2);
+    transform: scale(1.03);
+}
+
+.food-image {
+    position: relative;
+}
+
+.food-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.discount-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.food-info {
+    padding: 15px;
+}
+
+.food-title {
+    font-weight: bold;
+    color: #222;
+}
+
+.food-rating {
+    color: #388e3c;
+    font-weight: bold;
+}
+
+.star {
+    color: gold;
+}
+
+.food-details {
+    color: #666;
+}
+
+.food-location {
+    color: #999;
+}
+#adj{
+    height: 180px;
+   
+}
